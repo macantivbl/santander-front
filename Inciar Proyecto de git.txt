@@ -1,0 +1,7 @@
+git init
+git add . #agrega todos los archivos modificados
+git commit -m "Mensaje del commit"
+
+git remote add origin "http....   "
+git push -u origin master
+
