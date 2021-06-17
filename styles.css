@@ -22,16 +22,15 @@ body {
 
 .header {
     padding: 20px;
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 40px 20px 0px 20px;
     font-size: 0;
-    line-height: 45px;
+    height: 45px;
+    font-family: sans-serif;
   }
 
-  li{
+li{
       display: inline;
-  }
+}
 
 .header > * {
     display: inline-block;
@@ -45,14 +44,28 @@ body {
     width: 15%;
 }
 
+
 .navbar{
     width: 70%;
     text-align: center;
-    color: green;
+    color: #025157;
 }
 
 .actions{
-    width: 15%;
-    text-align: center;
-    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.actions > a{
+    color: #67b54b;
+}
+.actions > button{
+    color: rgb(255, 255, 255);
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 5px;
+    border: 0;
 }
