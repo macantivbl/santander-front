@@ -27,7 +27,13 @@ body {
     height: 45px;
     font-family: sans-serif;
   }
-
+.fixed-header{
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 li{
       display: inline;
 }
@@ -68,4 +74,38 @@ li{
     padding-bottom: 12px;
     border-radius: 5px;
     border: 0;
+}
+
+.promo{
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+
+.articulo > h3{
+    font-family: "Alegreya",serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+}
+
+.articulo > p{
+    font-size: 16;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.video{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.video > img{
+    width: 120px;
+    margin-top: 10px;
 }
