@@ -5,3 +5,6 @@ git commit -m "Mensaje del commit"
 git remote add origin "http....   "
 git push -u origin master
 
+
+git remote add origin https://github.com/macantivbl/BaseDatos.git
+
