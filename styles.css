@@ -168,7 +168,41 @@ figure img{
     background-color: #fff;
     border-radius: 10px;
 }
+.card-body{
+    padding: 25px;
+}
+.card-body h4{
+    font-family: "Slabo 27px", serif;
+    color: #025157;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+.caso-estudio{
+    background-color: #025157;
+    color: #fff;
+    border: none;
+    display: block;
+    margin-left: 0;
+    border-radius: 5px;
+    font-size: 13;
+    font-weight: 600;
+    padding: 12px 20px;
+    width: 100%;
+}
+
 .card img{
     max-width: 100%;
 
+}
+
+.results img{
+    width: 26px;
+    margin-right: 20px;
+}
+.results{
+    display: flex;
+    align-items: center;
+    color: #828282;
 }
