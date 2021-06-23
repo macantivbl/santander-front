@@ -1,3 +1,7 @@
+main{
+    margin-top: 285px;
+    text-align: center;
+}
 h1 {
     color:rgba(31, 117, 117, 0.432);
     font-size: 125px;
@@ -29,7 +33,7 @@ body {
   }
 .fixed-header{
     position: fixed;
-    background-color: white;
+    background-color: #fffbf7;
     top: 0;
     left: 0;
     right: 0;
@@ -83,14 +87,18 @@ li{
     align-items: center;
 }
 
-.articulo > h3{
+article{
+    margin-bottom: 15%;
+}
+
+.articulo > article > h3{
     font-family: "Alegreya",serif;
     font-size: 40px;
     line-height: 48px;
     color: #025157;
 }
 
-.articulo > p{
+.articulo > article > p{
     font-size: 16;
     color: #343434;
     line-height: 1.5;
@@ -108,4 +116,59 @@ li{
 .video > img{
     width: 120px;
     margin-top: 10px;
+}
+
+
+.creciendo{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #a1d683;
+}
+
+.CreciendoMatcha{
+    flex-direction: column;
+    margin-right: 15%;
+}
+
+.overview h2{
+    display: flex;
+    flex-direction: column;
+    font-family: "Alegreya", serif;
+    font-size: 51px;
+    line-height: 61px;
+    color: #025157;
+}
+.overview p{
+    color: #343434;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+.overview button{
+    font-size: 14px;
+    padding: 12px 12px 6px 12px;
+    border-radius: 8px;
+    height: 45px;
+    font-weight: 600;
+    margin-left: 0;
+}
+
+figure img{
+    width: 500px;
+    max-width: 100%;    
+    vertical-align: middle;
+    border-style: none; 
+}
+
+.card {
+    max-width: 370px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.card img{
+    max-width: 100%;
+
 }
