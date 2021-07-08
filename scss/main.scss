@@ -1,0 +1,72 @@
+@use 'global' as *;
+
+
+
+.blog {
+  background-color: $white;
+  max-width: 90%;
+  padding: 5% 10%;
+
+  .card-text{
+     color: #4a4a4a;
+    font-size: 18px;
+    line-height: 1.5em;
+    min-height: 6em; 
+  }
+
+  .title {
+    @extend %base-title;
+  }
+  .category{
+    color: #67b54b;
+  }
+
+  .read-time{
+    font-weight: bolder;
+    font-size: 14px;
+    color: #979797;
+  }
+  .process-list {
+    margin-top: 40px;
+    margin-bottom: 36px;
+
+    .process {
+      margin-bottom: 25px;
+
+      & > div {
+        & > h3 {
+          color: $dark-green-title;
+          margin-bottom: 0;
+          font-size: 30px;
+          font-weight: 500;
+        }
+        & > p {
+          color: $dark-green-text;
+          margin: 0;
+        }
+      }
+
+      .process-icon {
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+        text-align: center;
+
+        img {
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  button {
+    background-color: #025157;
+    color: #fff;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 12px;
+    width: 180px;
+    margin-bottom: 15px;
+  }
+}

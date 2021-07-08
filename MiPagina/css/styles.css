@@ -27,7 +27,8 @@ body {
   border: 1px solid transparent;
 }
 
-h5 {
+.card {
+  background-color: #310658;
   font-family: "Alegreya", serif;
   color: gold;
 }

@@ -5,3 +5,16 @@ git commit -m "Mensaje del commit"
 git remote add origin "http....   "
 git push -u origin master
 
+{ignorar carpetas}
+
+
+Installar sass
+
+npm init -> agrega la configuracion
+npm i sass -> instala la dependecia de sass
+
+crear .gitignore y agregar
+
+compilar
+node .\node_modules\sass\sass.js --watch .\scss\main.scss
+// ejecutar comando -> ./node_modules/sass/sass.js --watch ./scss/main.scss output.css
