@@ -21,12 +21,6 @@ body {
   color: gold;
 }
 
-.navbar-toggler {
-  color: rgba(0, 0, 0, 0.5);
-  border-color: rgba(0, 0, 0, 0.1);
-  border: 1px solid transparent;
-}
-
 .card {
   background-color: #310658;
   font-family: "Alegreya", serif;
